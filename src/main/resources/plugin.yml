@@ -1,0 +1,6 @@
+name: PacketInspector
+version: ${project.version}
+main: eu.mizerak.alemiz.minecraft.packetinspector.PacketInspector
+api-version: 1.16
+authors: [ Alemiz112 ]
+description: Simple plugin library which allows modifying inbound and outbound packets
