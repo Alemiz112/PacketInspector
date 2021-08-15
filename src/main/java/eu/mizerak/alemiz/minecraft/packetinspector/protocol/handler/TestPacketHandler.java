@@ -24,7 +24,7 @@ public class TestPacketHandler implements PacketHandler {
 
     private void appendComponent(TextComponent component, String string) {
         if (component.getText() != null && !component.getText().isEmpty()) {
-            component.setText(component.getText() +string);
+            component.setText(component.getText() + string);
         }
 
         if (component.getExtra() != null && !component.getExtra().isEmpty()) {
